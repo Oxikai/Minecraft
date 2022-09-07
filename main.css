@@ -1,0 +1,92 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+header {
+    padding: 35px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-image: url(/Minecraft/media/background_grass.png);
+    background-size: contain;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: thin lightgray solid;
+    border-radius: 5%;
+    transition: width 0.2s height 0.2s;
+}
+
+a:hover {
+    color: yellow;
+    border: yellow thin dashed;
+}
+
+.center {
+    text-align: center;
+}
+
+div.content {
+    padding: 30px 0px;
+    margin-bottom: 0px;
+    background-size: 35px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: white;
+}
+
+div.top {
+    background-image: url(/Minecraft/media/background_deepslate_transition.png);
+    background-repeat: repeat-x;
+    background-size: 35px;
+    margin-bottom: 0px;
+}
+
+div.main {
+    background-image: url(/Minecraft/media/background_deepslate.png);
+    background-size: 35px;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+div.main p, div.main h2, div.main a, div.main div {
+    margin: 0px;
+}
+
+#stuff {
+    margin: 0px;
+    display: flex;
+}
+
+#stuff div, #stuff p {
+    width: 300px;
+    height: 300px;
+    padding: 10px 5px;
+    transition: all 0.2s;
+}
+
+#stuff img {
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+}
+
+#stuff div:hover {
+    width: 350px;
+    height: 350px;
+}
+
+/*
+
+--mcw-grass-base: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/42/Light_background_grass.png/revision/latest?format=original);
+    --mcw-snow-base: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/64/Light_background_snowy_grass.png/revision/latest?format=original);
+    --mcw-snowfall: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/84/Winter-snow-background.gif/revision/latest?format=original);
+    --mcw-header-background: linear-gradient(0deg,rgba(255,255,255,0) 0,rgba(0,0,0,0.1) 158px,rgba(255,255,255,0) 0),var(--mcw-grass-base),linear-gradient(0deg,rgba(255,255,255,0) 168px,rgb(227,227,227) 168px,rgb(203,217,231) 210px,rgb(141,189,233) 268px);
+    --mcw-deepslate: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bc/Light_background_deepslate.png/revision/latest?format=original);
+    --mcw-deepslate-transition: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b8/Light_background_deepslate_transition.png/revision/latest?format=original);
+
+*/
