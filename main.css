@@ -60,7 +60,7 @@ a:hover {
 div.content {
     padding: 30px 0px;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
     background-size: 35px;
     position: absolute;
     top: 50px;
@@ -79,7 +79,7 @@ div.main {
     background-image: url(media/background_deepslate.png);
     background-size: 35px;
     margin: 0px;
-    padding: 5px 10px;
+    padding: 5px 0px;
 }
 
 div.main p, div.main h2, div.main a, div.main div {
@@ -127,6 +127,21 @@ div.main p, div.main h2, div.main a, div.main div {
 #legend h2 {
     position: relative;
     left: -15px;
+}
+
+#download {
+    font-size: 20px;
+    height: 25px;
+    padding: 5px 10px;
+    background-color: rgb(199, 199, 199);
+    border: 2px solid rgb(116, 116, 116);
+    cursor: pointer;
+    margin: auto 100px;
+}
+
+#download:hover {
+    background-color: rgb(134, 134, 134);
+    border: 2px solid rgb(116, 116, 116);
 }
 
 /*
