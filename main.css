@@ -90,6 +90,9 @@ div.main p, div.main h2, div.main a, div.main div {
     margin: 0px;
     display: flex;
 }
+#stuff a {
+    margin: auto 10px;
+}
 
 #stuff div, #stuff p {
     width: 300px;
@@ -107,6 +110,11 @@ div.main p, div.main h2, div.main a, div.main div {
 #stuff div:hover {
     width: 350px;
     height: 350px;
+}
+
+#cover {
+    position: relative;
+    top: -470px;
 }
 
 #legend {
