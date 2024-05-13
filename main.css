@@ -117,39 +117,56 @@ div.main p, div.main h2, div.main a, div.main div {
     top: -470px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #legend {
     display: block;
     margin: 0px auto;
-    padding: 0px auto;
+    padding-right: 5px;
     font-size: 20px;
     min-width: 200px;
     min-height: 200px;
-    background-color: rgb(214, 214, 214);
-    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(158, 145, 113);
+    border: 5px solid rgb(117, 117, 116);
+    border-top-color: rgb(78, 72, 56);
+    border-bottom-color: rgb(78, 72, 56);
+    color: rgb(255, 255, 255);
 }
 
 #legend a {
-    border-color: rgba(0,0,0,0);
+    border: 0px white solid;
+    /*border-top: rgb(78, 72, 56) 4px solid;*/
+    border-radius: 0%;
+    display: block;
+    width: 100%;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+#legend a:hover {
+    background-color: rgb(135, 123, 95);
 }
 
 #legend h2 {
-    position: relative;
-    left: -15px;
+    padding: 1px 10px;
 }
 
 #download {
     font-size: 20px;
     height: 25px;
     padding: 5px 10px;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(158, 145, 113);
     border: 2px solid rgb(116, 116, 116);
     cursor: pointer;
     margin: auto 100px;
 }
 
 #download:hover {
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(135, 123, 95);
     border: 2px solid rgb(116, 116, 116);
+    color: yellow;
 }
 
 /*
